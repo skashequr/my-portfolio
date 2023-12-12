@@ -66,39 +66,36 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
              My <span className="purple"> Education </span> 
             </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Python. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
+            <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Exam</th>
+      <th scope="col">GPA</th>
+      <th scope="col">Group</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>SSC</td>
+      <td>4.09</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>HSC</td>
+      <td>4.00</td>
+      <td>Science</td>
+    </tr>
+    <tr>
+    <th scope="row">3</th>
+      <td>BSC</td>
+      <td>Running</td>
+      <td>Mathmatics</td>
+    </tr>
+  </tbody>
+</table>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
