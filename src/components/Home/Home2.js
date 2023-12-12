@@ -70,32 +70,49 @@ function Home2() {
   <thead>
     <tr>
       <th scope="col">#</th>
-      <th scope="col">Exam</th>
-      <th scope="col">GPA</th>
-      <th scope="col">Group</th>
+      <th className="purple" scope="col">Exam</th>
+      <th className="purple" scope="col">GPA</th>
+      <th className="purple" scope="col">Group</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>SSC</td>
-      <td>4.09</td>
-      <td>Science</td>
+      <th className="purple" scope="row">1</th>
+      <td className="purple">SSC</td>
+      <td className="purple">4.09</td>
+      <td className="purple">Science</td>
     </tr>
     <tr>
-      <th scope="row">2</th>
-      <td>HSC</td>
-      <td>4.00</td>
-      <td>Science</td>
+      <th className="purple" scope="row">2</th>
+      <td className="purple">HSC</td>
+      <td className="purple">4.00</td>
+      <td className="purple">Science</td>
     </tr>
     <tr>
-    <th scope="row">3</th>
-      <td>BSC</td>
-      <td>Running</td>
-      <td>Mathmatics</td>
+    <th className="purple" scope="row">3</th>
+      <td className="purple">BSC</td>
+      <td className="purple">Running</td>
+      <td className="purple">Mathmatics</td>
     </tr>
   </tbody>
 </table>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
+        </Row>
+      </Container>
+
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+          <h1 style={{ fontSize: "2.6em" }}>
+             My <span className="purple"> Expriance </span> 
+            </h1>
+            <p>Assistant Teacher</p>
+            <h2>BMS Ahsan Ullah Master School | May 2021 - Present</h2>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
